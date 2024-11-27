@@ -1,0 +1,142 @@
+.mainbody{
+    height: 100vh;
+    background-color: rgb(25 135 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+label{
+    display: block;
+}
+.firstdivision{
+    background-color: #fff;
+    padding: 45px;
+    max-width: 500px;
+    border-radius: 5px;
+}
+.sub1 h1{
+    text-decoration: underline;
+}
+.sub1{
+    margin-bottom: 40px;
+}
+.formdiv input{
+    width: 340px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 5px 10px;
+    
+}
+.formdiv label{
+    margin-bottom: 5px;
+}
+.formdiv{
+    max-width: 400px;
+}
+.button button{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 145px;
+}
+
+input[type=password]::-ms-reveal,
+input[type=password]::-ms-clear
+
+{
+    display: none;
+}
+.login{
+    margin-bottom: 2px;
+}
+
+
+.eye{
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+.eyee{
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+.firstdivision p{
+    color: red;
+    text-wrap: wrap;
+    max-width: 340px;
+    
+}
+.passss{
+    position: relative;
+}
+.passwoo{
+    position: relative;
+}
+
+
+/* TO-DO STYLE */
+
+.secondmain{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(248 249 250);
+}
+
+.todolist h1{
+    color: rgb(25 135 84);
+    font-size: 3.5rem;
+    font-weight: lighter;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.todolist p{
+    margin: 0;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.task input{
+    width: 800px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+}
+.task{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.buttontask{
+    border: none;
+    border-radius:  0 5px 5px 0;
+    color: #fff;
+    width: 110px;
+    padding: 0;
+}
+
+
+.listyle{
+    width: 600px;
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.complete{
+    text-decoration: line-through;
+    color: #aaa;
+}
